@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+/* Clock */
+#clock{
+    position: fixed;
+    font-size: 100px; 
+    margin: 300px 0 0 0 ; 
+    left: 50%; transform: translateX(-50%); 
+}
+
+/* Login-Form */
+#login-form{
+    position: fixed;
+    left: 50%; transform: translateX(-50%); 
+    margin: 420px 0 0 0;
+}
+#login-form input::placeholder{
+    color: white;
+    text-align: center;
+}
+#login-form input[type="text" i]{
+    width: 450px; height: 60px;
+    font-size: 50px; 
+    border: none;
+    border-bottom: solid 2px white;
+    background-color: transparent;
+    color: white;
+    text-shadow: 0 0 0 black;
+    opacity: 0.8;
+}
+#login-form input[type="text" i]:focus{
+    outline: none;
+}
+#login-form input[type="submit" i]{
+    display: none;   
+}
+
+/* Login Greeting */
+#greeting{
+    position: fixed;
+    width: 720px; height: 120px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    margin: 410px 0 0 0;
+    left: 50%; transform: translateX(-50%); 
+}
+/* Todo Form */
+#todo-form{
+    position: fixed;
+    left: 50%; transform: translateX(-50%); 
+    margin: 520px 0 0 0;
+}
+#todo-form input::placeholder{
+    color: white;
+    text-align: center;
+}
+#todo-form input[type="text" i]{
+    width: 250px; height: 40px;
+    font-size: 25px; 
+    border: none;
+    border-bottom: solid 2px white;
+    background-color: transparent;
+    color: white;
+    text-shadow: 0 0 0 black;
+}
+#todo-form input[type="text" i]:focus{
+    outline: none;
+}
+
+/* Todo List */
+#todo-list{
+    position: fixed;
+    left: 50%; transform: translateX(-50%); 
+    margin: 600px 0 0 0;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 0;
+    font-size: 30px;
+}
+#todo-list button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Qutoe */
+#quote{
+    position: absolute;
+    left: 50%; transform: translateX(-50%); 
+    margin: 420px 0 0 0;
+    bottom: 20px;
+}
+#quote span:first-child{
+    font-size: 15px;
+}
+
+#quote span:last-child{
+    font-size: 10px;
+    position: fixed;
+    left: 50%; transform: translateX(-50%); 
+}
+
+/* Background Imag */
+img{
+    width: 100%; height: 100%;
+    display: block;
+}
+
+/* Weather */
+#weather{
+    position: absolute  ;
+    font-size: 10px;
+    top:5px; right: 5px;
+}
+
+.hidden{
+    display: none;
+}
